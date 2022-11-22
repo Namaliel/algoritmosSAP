@@ -2,11 +2,13 @@
 
 ## El factorial:
 
-Primero  $0!=1$
+El factorial se define como el producto de todos los números enteros positivos entre $0$ y un número $n$
+
+El factorial de $0$ se define como $1$
 
 Entonces para todo número mayor a $0$ se define al factorial como:
 $\Pi_{k=1}^{n}k$
-
+En donde n es la base de la que se quiere saber el factorial
 ## El codigo:
 ~~~
 00 Inicio
@@ -15,7 +17,7 @@ $\Pi_{k=1}^{n}k$
 03 Estavlecer el valor de la variable "indice" a 1
 04 verificar que el valor de la varialbe indice no sea igual al de la variable base
 05 Si:
-06  Establcer el valor de la variable resultado = resultado * base
+06  Establcer el valor de la variable resultado = resultado * indice
 07  Aumentar la variable indice en 1
 08  Saltar al paso 04
 09 No: 
